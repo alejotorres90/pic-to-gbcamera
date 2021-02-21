@@ -1,0 +1,50 @@
+.Share-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.Share-container h3 {
+    font-size: 24px;
+    margin: 10px 25px;
+    text-align: center;
+}
+
+.Share-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Share-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 1000px;
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(176, 42, 111);
+}
+
+.Share-buttons a img {
+    max-height: 80%;
+    max-width: 80%;
+}
+
+@media(max-width: 350px) {
+    .Share-container h3 {
+        font-size: 21px;
+        margin: 15px 25px;
+    }
+}
+
+@media(hover:hover) {
+    .Share-buttons a:hover {
+        transform: translateY(-3px);
+    }
+}

@@ -1,0 +1,45 @@
+.Edit-uploaded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.Edit-uploaded-pic {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 296px;
+    max-height: 296px;
+    border-top: 2px solid rgb(128, 128, 128);
+    border-left: 2px solid rgb(128, 128, 128);
+    border-right: 2px solid rgb(64, 64, 64);
+    border-bottom: 2px solid rgb(64, 64, 64);
+    box-shadow: 2px 2px 0 black ;
+}
+
+.Edit-uploaded-button {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: rgba(255,255,255,0.6);
+    background-color: rgb(176, 42, 111);
+    border-radius: 1000px;
+    border: none;
+    border-bottom: 3px solid rgb(109, 27, 70);
+    max-width: 300px;
+    min-width: 150px;
+    height: 39px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 0 0 0;
+    margin: 10px 0 0 1px;
+}
+
+.Edit-uploaded-button:active {
+    border: none;
+    height: 36px;
+    margin-top: 13px;
+}    
