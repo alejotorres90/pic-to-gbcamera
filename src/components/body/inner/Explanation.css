@@ -1,0 +1,125 @@
+.Explanation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 0 0 0;
+}
+
+.Explanation-container h3 {
+    font-size: 24px;   
+    margin: 10px;
+    text-align: center;
+}
+
+.Explanation-container h3 b {
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -2px;
+}
+
+.Explanation-container p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.Explanation-container p b {
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.Explanation-text {
+    margin: 25px;
+    max-width: 423px;
+}
+
+.Explanation-does {
+    margin: 10px 0;
+}
+
+.Explanation-works {
+    margin: 10px 0;
+}
+
+.Explanation-looks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgb(132,130,135);
+    border-radius: 15px 15px 50px 15px;
+    padding: 25px;
+}
+
+.Explanation-looks-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Explanation-looks-title div {
+    flex: 1;
+}
+
+.Explanation-looks-title div hr {
+    min-width: 50px;
+    width: 100%;
+    margin: 2px 0 13px 0;
+}
+
+.Explanation-looks h3 {
+    margin-top: 0;
+    font-size: 21px;
+}
+
+.Explanation-looks-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Explanation-looks img {
+    margin: 10px;
+    height: 181px;
+    border-top: 2px solid rgb(128, 128, 128);
+    border-left: 2px solid rgb(128, 128, 128);
+    border-right: 2px solid rgb(64, 64, 64);
+    border-bottom: 2px solid rgb(64, 64, 64);
+    box-shadow: 2px 2px 0 black ;
+}
+
+#Explanation-looks-arrow {
+    transform: rotate(180deg);
+    width: 15px;
+    height: 25px;
+    border: none;
+    box-shadow: none;
+}
+
+@media(max-width: 866px) {
+    .Explanation-container {
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+@media(max-width: 500px) {
+    .Explanation-looks-inner {
+        flex-direction: column;
+    }
+    #Explanation-looks-arrow {
+        transform: rotate(270deg);
+    }
+}
+
+@media(max-width: 380px) {
+    .Explanation-looks h3 {
+        font-size: 17px;
+    }
+    .Explanation-looks-title div hr {
+        min-width: 40px;
+        margin: 3px 0 13px 0;
+    }
+}

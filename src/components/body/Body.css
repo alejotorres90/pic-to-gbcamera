@@ -1,0 +1,28 @@
+.Body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Body-credits {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Body-credits a {
+    transition: 0.2s ease-in-out;
+}
+
+.Body-data {
+    margin: 10px 10px 25px 10px;
+    text-align: center;
+}
+
+@media(hover:hover) {
+    .Body-credits a:hover {
+        opacity: 0.65;
+    }
+}

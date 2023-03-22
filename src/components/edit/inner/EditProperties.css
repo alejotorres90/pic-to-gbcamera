@@ -1,0 +1,127 @@
+#Edit-properties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 25px;
+}
+
+#Edit-properties h3 {
+    color: rgb(54, 51, 155);
+    font-size: 15px;
+    max-width: 150px;
+    text-align: center;
+    margin: 0 0 25px 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#Edit-properties-properties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Edit-property {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.Edit-property img {
+    width: 36px;
+    margin: 6px 20px 6px 6px;
+}
+
+.Edit-arrows {
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-30deg)
+}
+
+.Edit-arrows-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 1000px;
+    padding: 3px 6px;
+}
+
+.Edit-arrow {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(176, 42, 111);
+    border-radius: 1000px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    outline: none;
+}
+
+.Edit-arrow-disabled {
+    filter: grayscale(100%);
+    cursor: default;
+    opacity: 0.5;
+}
+
+.Edit-arrows-tags {
+    color: rgb(54, 51, 155);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Edit-arrows-tags p {
+    line-height: 15px;
+    width: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media(max-width: 940px) {
+    #Edit-properties {
+        margin: 25px 25px 0 25px;
+    }
+    #Edit-properties h3 {
+        max-width: 100%;
+        margin: 5px 15px 25px 15px !important;
+    }
+    #Edit-properties-properties {
+        flex-direction: row;
+        padding-left: 5px;
+    }
+    #Edit-properties h3 {
+        margin: 0;
+    }
+    .Edit-property {
+        margin: 20px;
+    }
+    .Edit-property img {
+        width: 36px;
+        margin: 6px 15px 25px 6px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 540px) {
+    .Edit-property {
+        margin: 0 6vw;
+        flex-direction: column;
+    }
+    .Edit-property img {
+        width: 36px;
+        margin: 6px 6px 25px 6px;
+        padding-right: 10px;
+    }
+}
